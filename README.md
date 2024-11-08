@@ -18,4 +18,5 @@ The **Play Songs App** is a web-based music player that allows users to view a p
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/play-songs-app.git
+   git clone https://github.com/NabilLamb/play-songs-app.git
+   
