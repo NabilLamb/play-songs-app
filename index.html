@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Songs App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Play Songs App</h3>
+        <div class="actions">
+            <div class="image-container">
+                <img src="./music-image.jpg" alt="Music Image">
+                <div class="player-display-song-artist">
+                    <p id="player-song-title">Title</p>
+                    <p id="player-song-artist">Artist</p>
+                </div>
+                <div class="buttons">
+                    <button class="control-btn" id="back"><i class="fa-solid fa-backward-step"></i></button>
+                    <button class="control-btn" id="play"><i class="fa-solid fa-play" id="play-pause-icon"></i></button>
+                    <button class="control-btn" id="next"><i class="fa-solid fa-forward-step"></i></button>
+                    <button class="control-btn" id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="playlist">
+            <h3>Playlist</h3>
+            <ul id="playlist-songs"></ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
